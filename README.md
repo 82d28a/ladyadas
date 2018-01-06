@@ -8,7 +8,7 @@ Websites:
 
 3. Walkthrough reference https://learn.adafruit.com/adafruit-circuit-playground-express/adafruit2-circuitpython
   
-  NOTE: You do not need to do the setup portions, I already did that for you all. You can skip to setting up the REPL and trying out the code. In the walk through *THE BLINK EXAMPLE and other example code may NOT WORK WITH CIRCUIT PLAYGROUND EXPRESS!!!
+  NOTE: You do not need to do the setup portions, I already did that for you all. You can skip to setting up the REPL and trying out the code. In the walk through *THE BLINK EXAMPLE does not work, and other example code may NOT WORK WITH CIRCUIT PLAYGROUND EXPRESS!!!
 
 
 
