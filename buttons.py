@@ -13,8 +13,8 @@ button.pull = Pull.DOWN
 
 while True:
     if button.value == True:  # button is pushed
-        led.value = True
-    else:
         led.value = False
+    else:
+        led.value = True
 
-    time.sleep(0.01)
+    time.sleep(0.001)
