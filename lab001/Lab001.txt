@@ -1,11 +1,17 @@
-1. Watch Video and Read about how humans see color.
-a. https://askabiologist.asu.edu/rods-and-cones
+1. Watch Video and Read about how humans see color. 
+
+https://askabiologist.asu.edu/rods-and-cones
 
 2. Read watch what are neopixils a.k.a. RGB LEDs
-a. https://randomnerdtutorials.com/electronics-basics-how-do-rgb-leds-work/  **Do not read past Example – Control an RGB LED with the Arduino. 
-b. https://www.youtube.com/watch?v=HO6xQMR8naw
 
-Libraries in python and in most programming languages, are a collection of already written programs that allow you to save time and simplify your programs.  Someone AdaFruit Company wrote a libraries to use all of the gadgets on our CPE. 
+https://randomnerdtutorials.com/electronics-basics-how-do-rgb-leds-work/  **Do not read past Example – Control an RGB LED with the Arduino. 
+https://www.youtube.com/watch?v=HO6xQMR8naw
+
+Libraries in python and in most programming languages, are a collection of written programs that allow you to save time and simplify your programs.  Someone in the AdaFruit company wrote libraries to use all of the gadgets on your CPE. We will be using them to write our programs. The "import" word tells python that we are using those libraries. **Those libraries are already on you CPE, under the "lib" folder. 
+
+
+
+Create a new script called "code.py" using PyCharm.
 
 # This line imports libraries that allows access to the neopixels on our board
 import board 
@@ -25,16 +31,19 @@ pixels.fill((0,0,0))
 # This line tell the board to show the colors. 
 pixels.show()
 
+
+
+
 Step one write down your plan or your goals! 
-1. What colors do you want to make each of the 10 neopixils
+1. What colors do you want on the 10 neopixils?
 2. Do you want them to blink?
 3. Do you want them to bright or dull?
 
-Calculate the color using 3 bytes:
+Calculate the colors using 3 bytes:
 1. Use below website and note down values for your color: http://htmlcolorcodes.com/
-2. Create your tuples. Example: (255,255,0)
+2. Create your tuples. Example: (255,255,0) * Each one of the 3 integers represents one byte, that is why it is limited from 0-255
 
-Try program the following:
+Try to program the following:
 Red, Green, Blue
 Purple, Pink, Yellow
 White, Orange…
@@ -43,12 +52,17 @@ Challenge: How would you cycle the rainbow?
 
 References:
 	http://circuitpython.readthedocs.io/projects/neopixel/en/latest/_modules/neopixel.html
-  http://circuitpython.readthedocs.io/projects/neopixel/en/latest/README.html
-  https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-neopixel
+  	http://circuitpython.readthedocs.io/projects/neopixel/en/latest/README.html
+  	https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-neopixel
 
 
 
-EXTRA Reference for Buttons/Switches:
+Things to try at home, with your parents: 
+1. Try to make each of the 10 pixels a different colors.  HINT, look at the other example codes.
+2. Try adding a button to turn on and off the pixels.
+3. Be creative and make someting great!
+
+Reference for Buttons/Switches:
 https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-digital-in-out
 
 # Setup button A
