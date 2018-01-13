@@ -60,7 +60,13 @@ References:
 Things to try at home, with your parents: 
 1. Try to make each of the 10 pixels a different colors.  
 	HINT: look at the lights.py example code. 
-	HINT: On the above example, "pixels[1] = (255,0,0)" will make only the first pixel red.
+	HINT: On the above example adding: 
+	
+	pixels[0] = (255,0,0)
+	pixels[2] = (255,0,0)
+	pixels.show()
+	
+	will make only the first and third pixels red.  Remember python always starts at zero! 
 	
 2. Try adding a button to turn on and off the pixels.
 3. Be creative and make someting great!
