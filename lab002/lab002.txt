@@ -1,6 +1,9 @@
 Take a look at this video to review how colors work on just about all iphones, computers and TV screens you use everyday!
 https://youtu.be/3BJU2drrtCM
 
+# imports digitalio
+from digitalio import DigitalInOut, Direction, Pull
+
 # This first line gets you access to the physical button. You could name "button_b" to whatever you want.
 button_b = DigitalInOut(board.BUTTON_B)
 
