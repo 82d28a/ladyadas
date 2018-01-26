@@ -23,5 +23,17 @@ slide_switch.pull = Pull.UP
 
 
 Create a loop to check if button_b is True or False. If true show some pretty colors!
+    Create a function that shows all red.
+    Create a function that shows all blue.
+        Hint:
+            def function_name:
+            <tab>put your code here to show all blue or red.
+
+    Use "while True:" to create an infinite loop.
+        Check for buttons for press.
+            Then do something
+
+
+
 Create a loop to check if slide_switch is True or False(slide to left or right). If true make the leds be dim, if false make it bright!
 
