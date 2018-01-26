@@ -1,0 +1,27 @@
+Take a look at this video to review how colors work on just about all iphones, computers and TV screens you use everyday!
+https://youtu.be/3BJU2drrtCM
+
+# This first line gets you access to the physical button. You could name "button_b" to whatever you want.
+button_b = DigitalInOut(board.BUTTON_B)
+
+# This line tells the CPE to use the button as input, this is obvious.
+button_b.direction = Direction.INPUT
+
+# This set the initial state to False or down.
+button_b.pull = Pull.DOWN
+
+
+
+# This first line gets you access to the physical slide switch. You could name "slide_switch" to whatever you want.
+slide_switch = DigitalInOut(board.SLIDE_SWITCH)
+
+# This line tells the CPE to use the button as input, this is obvious.
+slide_switch.direction = Direction.INPUT
+
+# This set the initial state to True or UP.
+slide_switch.pull = Pull.UP
+
+
+Create a loop to check if button_b is True or False. If true show some pretty colors!
+Create a loop to check if slide_switch is True or False(slide to left or right). If true make the leds be dim, if false make it bright!
+
