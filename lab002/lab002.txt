@@ -1,7 +1,10 @@
-Take a look at this video to review how colors work on just about all iphones, computers and TV screens you use everyday!
-https://youtu.be/3BJU2drrtCM
+Take a look at this video to review how colors work on just about all smart phones, computer screens and TV screens you use everyday!
+    
+    https://youtu.be/3BJU2drrtCM
 
-# imports digitalio
+
+
+# This line should be added to the top of your program to use the digitalio python library. Remember libraries are a collection of programs that someone already wrote for you to reuse.  We use this library to access the butttons!
 from digitalio import DigitalInOut, Direction, Pull
 
 # This first line gets you access to the physical button. You could name "button_b" to whatever you want.
@@ -14,17 +17,6 @@ button_b.direction = Direction.INPUT
 button_b.pull = Pull.DOWN
 
 
-
-# This first line gets you access to the physical slide switch. You could name "slide_switch" to whatever you want.
-slide_switch = DigitalInOut(board.SLIDE_SWITCH)
-
-# This line tells the CPE to use the button as input, this is obvious.
-slide_switch.direction = Direction.INPUT
-
-# This set the initial state to True or UP.
-slide_switch.pull = Pull.UP
-
-
 Create a loop to check if button_b is True or False. If true show some pretty colors!
     Create a function that shows all red.
     Create a function that shows all blue.
@@ -34,9 +26,23 @@ Create a loop to check if button_b is True or False. If true show some pretty co
 
     Use "while True:" to create an infinite loop.
         Check for buttons for press.
-            Then do something
+            Then do something like calling your function that creates all red shiny lights! 
+            
+        Don't forget to put a delay here to make your gizmo wait a few tenths of seconds before checking the switch.
 
 
+Try this at home with your parents:
+    
+    Create a loop to check if slide_switch is True or False(slide to left or right). If true make the leds be dim, if false make it bright!  
 
-Create a loop to check if slide_switch is True or False(slide to left or right). If true make the leds be dim, if false make it bright!
+# This line should be added to the top of your program to use the digitalio python library. Remember libraries are a collection of programs that someone already wrote for you to reuse.  We use this library to access the butttons and slide switches!
+from digitalio import DigitalInOut, Direction, Pull
 
+# This first line gets you access to the physical slide switch. You could name "slide_switch" to whatever you want.
+slide_switch = DigitalInOut(board.SLIDE_SWITCH)
+
+# This line tells the CPE to use the button as input, this is obvious.
+slide_switch.direction = Direction.INPUT
+
+# This set the initial state to True or UP.
+slide_switch.pull = Pull.UP
