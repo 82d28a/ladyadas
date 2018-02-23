@@ -1,6 +1,6 @@
 Goals:
-1. Install Mu
-  
+
+1. Install Mu:
 2. Learn about heat energy and how to make our CPE measure temperature.
 
 Installing MU:
@@ -17,3 +17,12 @@ Reference to Temperature functions:
 https://learn.adafruit.com/adafruit-circuit-playground-express/playground-temperature
 
 Todays Project is to created a program that will change NeoPixil colors based on the temperature.
+Lady Adas was asked by Sisters of North America (SNA) to create a lie detecter for their siblings being sick.
+Your gizmo needs to change colors based on the temperature of your sibling!
+Pick 4 temperature ranges and assign simple colors. 
+Research what is "normal" or healthy temperature.
+
+1. Temperature range too cold be to normal.
+2. Perfectly fine Temp, sibling not sick!
+3. Has a fever and needs to stay home from school.
+4. Tell mom and dad to take you siblings to the hospital.
