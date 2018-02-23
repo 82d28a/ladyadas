@@ -1,0 +1,19 @@
+Goals:
+1. Install Mu
+  
+2. Learn about heat energy and how to make our CPE measure temperature.
+
+Installing MU:
+
+1. Download and install https://os.mbed.com/media/downloads/drivers/mbedWinSerial_16466.exe
+2. Download and install https://codewith.mu/ under "Download for Windows"
+
+Watch following video about Heat Energy:
+https://www.youtube.com/watch?v=f1eAOygDP5s
+
+Today we will use our gizmo to measure temperature.
+
+References to Temperature modules:
+https://learn.adafruit.com/adafruit-circuit-playground-express/playground-temperature
+
+Todays Project is to created a program that will change NeoPixil colors based on the temperature.
