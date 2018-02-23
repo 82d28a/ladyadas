@@ -13,7 +13,7 @@ https://www.youtube.com/watch?v=f1eAOygDP5s
 
 Today we will use our gizmo to measure temperature.
 
-References to Temperature modules:
+Reference to Temperature functions:
 https://learn.adafruit.com/adafruit-circuit-playground-express/playground-temperature
 
 Todays Project is to created a program that will change NeoPixil colors based on the temperature.
