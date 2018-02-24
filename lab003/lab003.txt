@@ -8,8 +8,9 @@ Installing MU:
 1. Download and install: https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
 2. https://github.com/adafruit/Adafruit_Windows_Drivers/releases/download/2.2.0/adafruit_drivers_2.2.0.0.exe
 
-Watch following video about Heat Energy:
+Watch following video about heat energy:
 https://www.youtube.com/watch?v=f1eAOygDP5s
+https://www.sciencealert.com/does-hot-water-really-freeze-faster-than-cold-water
 
 Today we will use our gizmo to measure temperature.
 
