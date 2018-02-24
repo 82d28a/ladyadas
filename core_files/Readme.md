@@ -1,1 +1,4 @@
-https://github.com/adafruit/circuitpython/releases/download/2.2.3/adafruit-circuitpython-circuitplayground_express-2.2.3.uf2
+Latest Release of Circuitpython:
+https://github.com/adafruit/circuitpython/releases/latest
+
+Choose the file that starts with adafruit-circuitpython-circuitplayground_express-#.#.#.uf2.
