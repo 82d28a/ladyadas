@@ -5,7 +5,7 @@ Goals:
 
 Installing MU:
 
-1. Download and install https://os.mbed.com/media/downloads/drivers/mbedWinSerial_16466.exe
+1. Download and install: https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
 2. https://github.com/adafruit/Adafruit_Windows_Drivers/releases/download/2.2.0/adafruit_drivers_2.2.0.0.exe
 
 Watch following video about Heat Energy:
