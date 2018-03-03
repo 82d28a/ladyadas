@@ -3,11 +3,10 @@ Goals:
 1. Install Mu:
 2. Learn about heat energy and how to make our CPE measure temperature.
 
-Installing MU:
-
-1. Download and install: https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
-2. https://github.com/adafruit/Adafruit_Windows_Drivers/releases/download/2.2.0/adafruit_drivers_2.2.0.0.exe
-
+Download and install MU: 
+*https://github.com/adafruit/Adafruit_Windows_Drivers/releases/download/2.2.0/adafruit_drivers_2.2.0.0.exe
+*https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
+ 
 Watch following video about heat energy:
 https://www.youtube.com/watch?v=f1eAOygDP5s
 https://www.sciencealert.com/does-hot-water-really-freeze-faster-than-cold-water
