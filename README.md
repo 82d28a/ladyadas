@@ -5,6 +5,7 @@ Websites:
 1. Reference https://circuitpython.readthedocs.io/en/2.x/#
 2. Overview of CPE https://learn.adafruit.com/adafruit-circuit-playground-express
 3. Mu Editor for CPE https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor
+4. Example code: https://github.com/adafruit/Adafruit_Learning_System_Guides/tree/master/Introducing_CircuitPlaygroundExpress
   
   NOTE: You do not need to do the setup portions, I already did that for you all.
 
