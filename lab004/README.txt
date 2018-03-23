@@ -24,27 +24,12 @@ Option 2 Goal:
 
 
 
-
-
 Read and Try both examples below:
 How to listen to sound with built in microphone:
 https://learn.adafruit.com/adafruit-circuit-playground-express/playground-sound-meter
 
 How to play sounds through built in speaker:
 https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-audio-out
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
