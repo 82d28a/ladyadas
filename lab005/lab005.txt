@@ -1,0 +1,23 @@
+What is sound? 
+
+How do you measure sound?
+
+Define random? Are computers random? 
+
+
+
+
+
+Reference Links:
+
+Website to Download Starwars sound clips: http://www.bestwavfiles.com/star_wars.html
+
+How to listen to sound with built in microphone:
+https://learn.adafruit.com/adafruit-circuit-playground-express/playground-sound-meter
+
+How to play sounds through built in speaker:
+https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-audio-out
+
+About Random:
+http://circuitpython.readthedocs.io/en/2.x/shared-bindings/random/__init__.html
+
