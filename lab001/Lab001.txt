@@ -4,10 +4,15 @@ https://askabiologist.asu.edu/rods-and-cones
 
 2. Read watch what are neopixils a.k.a. RGB LEDs
 
-https://randomnerdtutorials.com/electronics-basics-how-do-rgb-leds-work/  **Do not read past Example – Control an RGB LED with the Arduino. 
+https://randomnerdtutorials.com/electronics-basics-how-do-rgb-leds-work/  **Do not read past Example – Control an RGB LED with
+the Arduino. 
+
 https://www.youtube.com/watch?v=HO6xQMR8naw
 
-Libraries in python and in most programming languages, are a collection of written programs that allow you to save time and simplify your programs.  Someone in the AdaFruit company wrote libraries to use all of the gadgets on your CPE. We will be using them to write our programs. The "import" word tells python that we are using those libraries. **Those libraries are already on you CPE, under the "lib" folder. 
+Libraries in python and in most programming languages, are a collection of written programs that allow you to save time and 
+simplify your programs.  Someone in the AdaFruit company wrote libraries to use all of the gadgets on your CPE. We will be 
+using them to write our programs. The "import" word tells python that we are using those libraries. **Those libraries are 
+already on you CPE, under the "lib" folder. 
 
 
 
@@ -20,10 +25,19 @@ import board
 import neopixel
 
 # This line imports everything to do with time. We will use it to control how much time to light up the neopixils.  
-"time.sleep(secs)" Suspend execution of the current thread for the given number of seconds. The argument may be a floating point number to indicate a more precise sleep time. The actual suspension time may be less than that requested because any caught signal will terminate the sleep() following execution of that signal’s catching routine. Also, the suspension time may be longer than requested by an arbitrary amount because of the scheduling of other activity in the system. https://docs.python.org/2/library/time.html
+# "time.sleep(secs)" Suspend execution of the current thread for the given number of seconds. The argument may be a 
+# floating point number to indicate a more precise sleep time. The actual suspension time may be less than that requested 
+# because any caught signal will terminate the sleep() following execution of that signal’s catching routine. Also, the 
+# suspension time may be longer than requested by an arbitrary amount because of the scheduling of other activity in the 
+# system. https://docs.python.org/2/library/time.html
 import time
 
-# this line creates an object called pixels. You could have named the object whatever you wanted like “rainbow_lites” but we used pixels.   Here is where we use previously written code we imported above. “neopixel” is the library name and the specific program we want to use is called “NeoPixel” confusing? This program needs additional configuration or settings to make it work properly. First setting is the where the neopixels are found, which we reference another library “board.NEOPIXEL”.  The second arguement is “10” which tell how many neopixls there are. The last argument is how bright 1 being brightest and 0 being off. 
+# this line creates an object called pixels. You could have named the object whatever you wanted like “rainbow_lites” but 
+# we used pixels.   Here is where we use previously written code we imported above. “neopixel” is the library name and the 
+# specific program we want to use is called “NeoPixel” confusing? This program needs additional configuration or settings 
+# to make it work properly. First setting is the where the neopixels are found, which we reference another library 
+# “board.NEOPIXEL”.  The second arguement is “10” which tell how many neopixls there are. 
+# The last argument is how bright 1 being brightest and 0 being off. 
 
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 10, brightness=.2)
 # This line sets the color to 0,0,0 which is black or off
@@ -41,7 +55,8 @@ Step one write down your plan or your goals!
 
 Calculate the colors using 3 bytes:
 1. Use below website and note down values for your color: http://htmlcolorcodes.com/
-2. Create your tuples. Example: (255,255,0) * Each one of the 3 integers represents one byte, that is why it is limited from 0-255
+2. Create your tuples. Example: (255,255,0) * Each one of the 3 integers represents one byte, that is why it is limited 
+from 0-255
 
 Try to program the following:
 Red, Green, Blue
